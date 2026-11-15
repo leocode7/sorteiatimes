@@ -51,7 +51,7 @@ export default function Home() {
   return (
     <main className="page-shell">
       <header className="page-header">
-        <h1>Sorteio de times</h1>
+        <h1>Baba do Ginásio de Esportes</h1>
         <p>Adicione os atletas e sorteie times com 5 jogadores.</p>
       </header>
 
