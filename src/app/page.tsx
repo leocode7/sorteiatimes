@@ -51,7 +51,7 @@ export default function Home() {
   return (
     <main className="page-shell">
       <header className="page-header">
-        <h1>Baba do Ginásio de Esportes</h1>
+        <h1 className="titulo_principal">Baba do Ginásio de Esportes</h1>
         <p>Adicione os atletas e sorteie times com 5 jogadores.</p>
       </header>
 
@@ -103,6 +103,10 @@ export default function Home() {
           )}
         </div>
       </section>
+      <footer className="page-footer">
+        <span>© {new Date().getFullYear()} Baba do Ginásio de Esportes</span>
+        <span>Desenvolvido por leocode</span>
+      </footer>
     </main>
   );
 }
